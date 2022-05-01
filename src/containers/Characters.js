@@ -34,7 +34,6 @@ export default function Characters() {
         intellect={38}
         strength={38}
       />
-      <CharacterSection name="Vault" />
     </div>
   );
 }

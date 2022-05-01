@@ -3,9 +3,9 @@ export default function ItemSection(props) {
     <div>
       <strong>{props.name}</strong>
       <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
+        <li>{props.weapons}</li>
+        <li>{props.armor}</li>
+        <li>{props.currency}</li>
       </ul>
     </div>
   );
