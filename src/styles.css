@@ -2,3 +2,31 @@
   font-family: sans-serif;
   text-align: left;
 }
+
+.Character {
+  display: flex;
+  flex-direction: row;
+  height: 9px;
+  white-space: nowrap;
+  width: 200px;
+  border: 1px solid green;
+  padding: 20px;
+  margin: 10px;
+  background-image: url(https://www.bungie.net/common/destiny2_content/icons/a25ef717abc1734f4c85ae19bf5ad99d.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.CharacterEmblem {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #313233;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
