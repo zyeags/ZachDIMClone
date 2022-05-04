@@ -1,5 +1,33 @@
 import { useState } from "react";
 import ItemSection from "../components/ItemSection";
+import PostMasterSection from "../components/PostMasterSection";
+
+const inventoryQuery = {
+  postmaster: {
+    hunter: {
+      engrams: [
+        {
+          type: "prime",
+          power: 1500
+        },
+        {
+          type: "umbral",
+          power: 1530
+        }
+      ],
+
+      items: {}
+    },
+    warlock: {
+      engrams: {},
+      items: {}
+    },
+    titan: {
+      engrams: {},
+      items: {}
+    }
+  }
+};
 
 const defaultEquipped = {
   warlock: "test",
@@ -26,12 +54,11 @@ export default function Inventory() {
         hunter: {equipped.hunter}
       </div>
 
-      <ItemSection
+      <PostMasterSection
         name="Postmaster"
-        weapons={["Divinity,", " Gjally,"]}
-        armor={["Lost Pacific Helm"]}
-        general={["Exotic Ghost Shell"]}
-        currency={["Strange Coins,", " Treasure Keys,", " Enhancement Cores"]}
+        hunter={inventoryQuery.postmaster.hunter}
+        warlock={inventoryQuery.postmaster.warlock}
+        titan={inventoryQuery.postmaster.titan}
       />
       <ItemSection name="Weapons" equipWeapon={equipWeapon} />
       <ItemSection name="Armor" equipWeapon={equipWeapon} />
