@@ -16,7 +16,16 @@ const inventoryQuery = {
         }
       ],
 
-      items: {}
+      items: [
+        {
+          type: "ascendant"
+        },
+        {
+          type: "weapon",
+          name: "The Title",
+          light: 1560
+        }
+      ]
     },
     warlock: {
       engrams: {},
@@ -32,7 +41,7 @@ const inventoryQuery = {
 const defaultEquipped = {
   warlock: "test",
   titan: "",
-  hunter: ""
+  hunter: "Divinity"
 };
 
 export default function Inventory() {
@@ -46,7 +55,7 @@ export default function Inventory() {
 
   return (
     <div>
-      <h2>Inventory2</h2>
+      <h2>Inventory</h2>
 
       <div>
         warlock: {equipped.warlock}

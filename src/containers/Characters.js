@@ -5,7 +5,13 @@ export default function Characters() {
     <body>
       <div>
         <h2>Characters</h2>
-        <div class="Character">Hunter</div>
+        <div class="CharacterEmblem">
+          <div class="NameLight">
+            <div> Hunter </div>
+            <div> 1560 </div>
+          </div>
+          <div class="Race"> Human </div>
+        </div>
         <CharacterSection
           name="Hunter"
           maximumPower={1560}
@@ -16,8 +22,13 @@ export default function Characters() {
           intellect={43}
           strength={105}
         />
-
-        <div class="Character"></div>
+        <div class="CharacterEmblem">
+          <div class="NameLight">
+            <div> Warlock </div>
+            <div> 1370 </div>
+          </div>
+          <div class="Race">Awoken </div>
+        </div>
         <CharacterSection
           name="Warlock"
           maximumPower={1449}
@@ -28,8 +39,13 @@ export default function Characters() {
           intellect={47}
           strength={32}
         />
-
-        <div class="Character"></div>
+        <div class="CharacterEmblem">
+          <div class="NameLight">
+            <div> Titan </div>
+            <div> 1395 </div>
+          </div>
+          <div class="Race">Exo </div>
+        </div>
         <CharacterSection
           name="Titan"
           maximumPower={1449}

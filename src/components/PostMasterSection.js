@@ -16,7 +16,19 @@ export default function PostMasterSection(props) {
             );
           })}
         </div>
-        <div class="items">{JSON.stringify(props.hunter.items)}</div>
+        <br />
+        <div class="items">
+          {props.hunter.items.map((item) => {
+            return (
+              <div>
+                <span>{item.type}</span>
+                <span>{item.light}</span>
+                <span>{item.name}</span>
+              </div>
+            );
+          })}
+          <br />
+        </div>
       </div>
       <div class="column"></div>
       <div class="column"></div>

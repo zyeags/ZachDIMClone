@@ -3,28 +3,35 @@
   text-align: left;
 }
 
-.Character {
-  display: flex;
-  flex-direction: row;
-  height: 9px;
-  white-space: nowrap;
-  width: 200px;
+.CharacterEmblem {
+  cursor: pointer;
   border: 1px solid green;
-  padding: 20px;
+  padding: 18px;
   margin: 10px;
+  width: 50%;
   background-image: url(https://www.bungie.net/common/destiny2_content/icons/a25ef717abc1734f4c85ae19bf5ad99d.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  flex-direction: row;
 }
 
-.CharacterEmblem {
-  flex: 1;
+.NameLight {
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  text-indent: 5em;
+}
+
+.Race {
+  font-size: 12px;
+  color: white;
+  filter: contrast(0.5);
+  text-indent: 6.2em;
 }
 
 body {
-  margin: 0 auto;
   background-color: #313233;
   color: rgb(255, 255, 255);
   font-family: "Open Sans", sans-serif;
