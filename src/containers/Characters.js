@@ -8,7 +8,7 @@ export default function Characters() {
         <div class="CharacterEmblem">
           <div class="NameLight">
             <div> Hunter </div>
-            <div> 1560 </div>
+            <div style={{ color: "#f5dc56" }}>1560 </div>
           </div>
           <div class="Race"> Human </div>
         </div>
@@ -25,7 +25,7 @@ export default function Characters() {
         <div class="CharacterEmblem">
           <div class="NameLight">
             <div> Warlock </div>
-            <div> 1370 </div>
+            <div style={{ color: "#f5dc56" }}>1370 </div>
           </div>
           <div class="Race">Awoken </div>
         </div>
@@ -42,7 +42,7 @@ export default function Characters() {
         <div class="CharacterEmblem">
           <div class="NameLight">
             <div> Titan </div>
-            <div> 1395 </div>
+            <div style={{ color: "#f5dc56" }}> 1395 </div>
           </div>
           <div class="Race">Exo </div>
         </div>
