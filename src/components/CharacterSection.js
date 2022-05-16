@@ -6,7 +6,7 @@ export default function CharacterSection(props) {
           <img
             value="maxPower"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/7c30e0e489e51a3920b4446684fbcdb1.png"
             alt="maxPower"
           />
@@ -16,7 +16,7 @@ export default function CharacterSection(props) {
           <img
             value="mobility"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/e26e0e93a9daf4fdd21bf64eb9246340.png"
             alt="mobility"
           />
@@ -26,7 +26,7 @@ export default function CharacterSection(props) {
           <img
             value="resilience"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/202ecc1c6febeb6b97dafc856e863140.png"
             alt="resilience"
           />
@@ -36,7 +36,7 @@ export default function CharacterSection(props) {
           <img
             value="recovery"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/128eee4ee7fc127851ab32eac6ca91cf.png"
             alt="recovery"
           />
@@ -46,7 +46,7 @@ export default function CharacterSection(props) {
           <img
             value="discipline"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/ca62128071dc254fe75891211b98b237.png"
             alt="discipline"
           />
@@ -56,7 +56,7 @@ export default function CharacterSection(props) {
           <img
             value="intellect"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/59732534ce7060dba681d1ba84c055a6.png"
             alt="intellect"
           />
@@ -66,7 +66,7 @@ export default function CharacterSection(props) {
           <img
             value="strength"
             width="20px"
-            height="20x"
+            height="20px"
             src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
             alt="strength"
           />
