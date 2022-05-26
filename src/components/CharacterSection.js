@@ -62,16 +62,18 @@ export default function CharacterSection(props) {
           />
         }
         : {props.intellect}
-        {
-          <img
-            value="strength"
-            width="20px"
-            height="20px"
-            src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
-            alt="strength"
-          />
-        }
-        : {props.strength}
+        <div class="StatItem">
+          {
+            <img
+              value="strength"
+              width="20px"
+              height="20px"
+              src="https://www.bungie.net/common/destiny2_content/icons/c7eefc8abbaa586eeab79e962a79d6ad.png"
+              alt="strength"
+            />
+          }
+          : {props.strength}
+        </div>
       </ul>
     </div>
   );
