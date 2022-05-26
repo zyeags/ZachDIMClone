@@ -5,7 +5,8 @@ export default function Characters() {
     {
       name: "Hunter",
       race: "Human",
-      maximumPower: 1560,
+      gearPower: 1560,
+      seasonBonus: 5,
       mobility: 39,
       resilience: 64,
       recovery: 73,
@@ -16,7 +17,8 @@ export default function Characters() {
     {
       name: "Warlock",
       race: "Awoken",
-      maximumPower: 1449,
+      gearPower: 1449,
+      seasonBonus: 0,
       mobility: 40,
       resilience: 46,
       recovery: 42,
@@ -27,7 +29,8 @@ export default function Characters() {
     {
       name: "Titan",
       race: "Exo",
-      maximumPower: 1449,
+      gearPower: 1449,
+      seasonBonus: 0,
       mobility: 39,
       resilience: 36,
       recovery: 32,
@@ -53,7 +56,9 @@ export default function Characters() {
             </div>
             <CharacterSection
               name={character.name}
-              maximumPower={character.maximumPower}
+              maximumPower={character.gearPower + character.seasonBonus}
+              gearPower={character.gearPower}
+              seasonBonus={character.seasonBonus}
               mobility={character.mobility}
               resilience={character.resilience}
               recovery={character.recovery}
