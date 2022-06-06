@@ -1,4 +1,5 @@
 import CharacterSection from "../components/CharacterSection";
+import CharacterEmblem from "../components/CharacterEmblem";
 
 export default function Characters() {
   const characters = [
@@ -47,13 +48,7 @@ export default function Characters() {
 
         {characters.map((character) => (
           <div class="CharacterSection">
-            <div class="CharacterEmblem">
-              <div class="NameLight">
-                <div> {character.name} </div>
-                <div style={{ color: "#f5dc56" }}>{character.maximumPower}</div>
-              </div>
-              <div class="Race"> {character.race} </div>
-            </div>
+            <CharacterEmblem />
             <CharacterSection
               name={character.name}
               maximumPower={character.gearPower + character.seasonBonus}
