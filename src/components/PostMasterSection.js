@@ -2,9 +2,9 @@ export default function PostMasterSection(props) {
   return (
     <div>
       <strong>{props.name}</strong>
-      <button onClick={() => props.equipWeapon("Gally", "hunter")}>
+      {/* <button onClick={() => props.equipWeapon("Gally", "hunter")}>
         Equip
-      </button>
+      </button> */}
       <div class="column">
         <div class="engrams">
           {props.hunter.engrams.map((engram) => {

@@ -1,8 +1,8 @@
 export default function CharacterSection(props) {
   return (
     <div>
-      <ul>
-        <div class="PowerLevel">
+      <div class="PowerLevel" style={{ display: "flex" }}>
+        <div class="MaxPowerContainer">
           {
             <img
               value="maxPower"
@@ -13,6 +13,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.maximumPower} =
+        </div>
+        <div class="GearPowerContainer">
           {
             <img
               value="gearPower"
@@ -23,6 +25,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.gearPower} +
+        </div>
+        <div class="SeasonBonusContainer">
           {
             <img
               value="bonus"
@@ -34,7 +38,9 @@ export default function CharacterSection(props) {
           }
           {props.seasonBonus}
         </div>
-        <div class="StatItem">
+      </div>
+      <div class="StatContainer" style={{ display: "flex" }}>
+        <div class="Mobility">
           {
             <img
               value="mobility"
@@ -45,6 +51,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.mobility}
+        </div>
+        <div class="Resilience">
           {
             <img
               value="resilience"
@@ -55,6 +63,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.resilience}
+        </div>
+        <div class="Recovery">
           {
             <img
               value="recovery"
@@ -65,6 +75,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.recovery}
+        </div>
+        <div class="Discipline">
           {
             <img
               value="discipline"
@@ -75,6 +87,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.discipline}
+        </div>
+        <div class="Intellect">
           {
             <img
               value="intellect"
@@ -85,6 +99,8 @@ export default function CharacterSection(props) {
             />
           }
           {props.intellect}
+        </div>
+        <div class="Strength">
           {
             <img
               value="strength"
@@ -96,7 +112,7 @@ export default function CharacterSection(props) {
           }
           {props.strength}
         </div>
-      </ul>
+      </div>
     </div>
   );
 }
