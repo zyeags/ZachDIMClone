@@ -1,7 +1,7 @@
 export default function CharacterSection(props) {
   return (
     <div>
-      <div class="PowerLevel" style={{ display: "flex" }}>
+      <div class="PowerLevel">
         <div class="MaxPowerContainer">
           {
             <img
@@ -39,7 +39,7 @@ export default function CharacterSection(props) {
           {props.seasonBonus}
         </div>
       </div>
-      <div class="StatContainer" style={{ display: "flex" }}>
+      <div class="StatContainer">
         <div class="Mobility">
           {
             <img

@@ -31,6 +31,14 @@
   text-indent: 6.2em;
 }
 
+.StatContainer {
+  display: flex;
+}
+
+.PowerLevel {
+  display: flex;
+}
+
 body {
   background-color: #313233;
   color: rgb(255, 255, 255);

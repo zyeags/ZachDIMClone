@@ -48,7 +48,13 @@ export default function Characters() {
 
         {characters.map((character) => (
           <div class="CharacterSection">
-            <CharacterEmblem />
+            <CharacterEmblem
+              name={character.name}
+              race={character.race}
+              gearPower={character.gearPower}
+              seasonBonus={character.seasonBonus}
+            />
+
             <CharacterSection
               name={character.name}
               maximumPower={character.gearPower + character.seasonBonus}

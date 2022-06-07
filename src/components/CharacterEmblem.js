@@ -1,11 +1,13 @@
-export default function CharacterEmblem(props) {
+export default function CharacterEmblem(character) {
   return (
     <div class="CharacterEmblem">
       <div class="NameLight">
-        <div> {props.name} </div>
-        <div style={{ color: "#f5dc56" }}>{props.maximumPower}</div>
+        <div> {character.name} </div>
+        <div style={{ color: "#f5dc56" }}>
+          {character.gearPower + character.seasonBonus}
+        </div>
       </div>
-      <div class="Race"> {props.race} </div>
+      <div class="Race"> {character.race} </div>
     </div>
   );
 }
