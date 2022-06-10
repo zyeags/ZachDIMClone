@@ -1,4 +1,4 @@
-export default function CharacterStatSection(props) {
+export default function CharacterStatSection(character) {
   return (
     <div>
       <div class="PowerLevel">
@@ -12,7 +12,7 @@ export default function CharacterStatSection(props) {
               alt="maxPower"
             />
           }
-          {props.maximumPower} =
+          {character.maximumPower} =
         </div>
         <div class="GearPowerContainer">
           {
@@ -24,7 +24,7 @@ export default function CharacterStatSection(props) {
               alt="gearPower"
             />
           }
-          {props.gearPower} +
+          {character.gearPower} +
         </div>
         <div class="SeasonBonusContainer">
           {
@@ -36,7 +36,7 @@ export default function CharacterStatSection(props) {
               alt="bonus"
             />
           }
-          {props.seasonBonus}
+          {character.seasonBonus}
         </div>
       </div>
       <div class="StatContainer">
@@ -50,7 +50,7 @@ export default function CharacterStatSection(props) {
               alt="mobility"
             />
           }
-          {props.mobility}
+          {character.mobility}
         </div>
         <div class="Resilience">
           {
@@ -62,7 +62,7 @@ export default function CharacterStatSection(props) {
               alt="resilience"
             />
           }
-          {props.resilience}
+          {character.resilience}
         </div>
         <div class="Recovery">
           {
@@ -74,7 +74,7 @@ export default function CharacterStatSection(props) {
               alt="recovery"
             />
           }
-          {props.recovery}
+          {character.recovery}
         </div>
         <div class="Discipline">
           {
@@ -86,7 +86,7 @@ export default function CharacterStatSection(props) {
               alt="discipline"
             />
           }
-          {props.discipline}
+          {character.discipline}
         </div>
         <div class="Intellect">
           {
@@ -98,7 +98,7 @@ export default function CharacterStatSection(props) {
               alt="intellect"
             />
           }
-          {props.intellect}
+          {character.intellect}
         </div>
         <div class="Strength">
           {
@@ -110,7 +110,7 @@ export default function CharacterStatSection(props) {
               alt="strength"
             />
           }
-          {props.strength}
+          {character.strength}
         </div>
       </div>
     </div>

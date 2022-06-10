@@ -1,5 +1,6 @@
 import CharacterStatSection from "../components/CharacterStatSection";
 import CharacterEmblem from "../components/CharacterEmblem";
+import CharacterSection from "../components/CharacterSection";
 
 export default function Characters() {
   const characters = [
@@ -48,28 +49,7 @@ export default function Characters() {
 
         {characters.map((character) => (
           <div class="CharacterSection">
-            <div class="CharacterEmblemSection">
-              <CharacterEmblem
-                name={character.name}
-                race={character.race}
-                gearPower={character.gearPower}
-                seasonBonus={character.seasonBonus}
-              />
-            </div>
-            <div class="CharacterStatSection">
-              <CharacterStatSection
-                name={character.name}
-                maximumPower={character.gearPower + character.seasonBonus}
-                gearPower={character.gearPower}
-                seasonBonus={character.seasonBonus}
-                mobility={character.mobility}
-                resilience={character.resilience}
-                recovery={character.recovery}
-                discipline={character.discipline}
-                intellect={character.intellect}
-                strength={character.strength}
-              />
-            </div>
+            <CharacterSection character={character} />
           </div>
         ))}
       </div>

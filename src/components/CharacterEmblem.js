@@ -1,3 +1,5 @@
+import Characters from "../containers/Characters.js";
+
 export default function CharacterEmblem(character) {
   return (
     <div class="CharacterEmblem">
