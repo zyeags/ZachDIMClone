@@ -10,6 +10,8 @@ export default function CharacterSection(props) {
         gearPower={props.character.gearPower}
         seasonBonus={props.character.seasonBonus}
       />
+      {/* <a href='https://www.bungie.net/en/OAuth/Authorize?client_id=21908&response_type=code'> Login with Bungie</a> */}
+
       <CharacterStatSection
         name={props.character.name}
         maximumPower={props.character.gearPower + props.character.seasonBonus}
