@@ -3,7 +3,7 @@ import CharacterStatSection from "../components/CharacterStatSection";
 
 export default function CharacterSection(props) {
   return (
-    <div>
+    <div className="CharacterSection">
       <CharacterEmblem
         name={props.character.name}
         race={props.character.race}

@@ -5,11 +5,11 @@ export default function PostMasterSection(props) {
       {/* <button onClick={() => props.equipWeapon("Gally", "hunter")}>
         Equip
       </button> */}
-      <div class="column">
-        <div class="engrams">
-          {props.hunter.engrams.map((engram) => {
+      <div className="column">
+        <div className="engrams">
+          {props.hunter.engrams.map((engram, index) => {
             return (
-              <div>
+              <div key={index}>
                 <span>{engram.type}</span>
                 <span>{engram.power}</span>
               </div>
@@ -17,10 +17,10 @@ export default function PostMasterSection(props) {
           })}
         </div>
         <br />
-        <div class="items">
-          {props.hunter.items.map((item) => {
+        <div className="items">
+          {props.hunter.items.map((item, index) => {
             return (
-              <div>
+              <div key={index}>
                 <span>{item.type}</span>
                 <span>{item.light}</span>
                 <span>{item.name}</span>
@@ -30,9 +30,9 @@ export default function PostMasterSection(props) {
           <br />
         </div>
       </div>
-      <div class="column"></div>
-      <div class="column"></div>
-      <div class="column"></div>
+      <div className="column"></div>
+      <div className="column"></div>
+      <div className="column"></div>
     </div>
   );
 }

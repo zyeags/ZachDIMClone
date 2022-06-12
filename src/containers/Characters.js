@@ -1,5 +1,3 @@
-import CharacterStatSection from "../components/CharacterStatSection";
-import CharacterEmblem from "../components/CharacterEmblem";
 import CharacterSection from "../components/CharacterSection";
 
 export default function Characters() {
@@ -43,16 +41,12 @@ export default function Characters() {
   ];
 
   return (
-    <body>
-      <div>
-        <h2>Characters</h2>
+    <div>
+      <h2>Characters</h2>
 
-        {characters.map((character) => (
-          <div class="CharacterSection">
-            <CharacterSection character={character} />
-          </div>
-        ))}
-      </div>
-    </body>
+      {characters.map((character, index) => (
+        <CharacterSection key={index} character={character} />
+      ))}
+    </div>
   );
 }

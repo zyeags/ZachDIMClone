@@ -1,8 +1,8 @@
 export default function CharacterStatSection(character) {
   return (
     <div>
-      <div class="PowerLevel">
-        <div class="MaxPowerContainer">
+      <div className="PowerLevel">
+        <div className="MaxPowerContainer">
           {
             <img
               value="maxPower"
@@ -14,7 +14,7 @@ export default function CharacterStatSection(character) {
           }
           {character.maximumPower} =
         </div>
-        <div class="GearPowerContainer">
+        <div className="GearPowerContainer">
           {
             <img
               value="gearPower"
@@ -26,7 +26,7 @@ export default function CharacterStatSection(character) {
           }
           {character.gearPower} +
         </div>
-        <div class="SeasonBonusContainer">
+        <div className="SeasonBonusContainer">
           {
             <img
               value="bonus"
@@ -39,8 +39,8 @@ export default function CharacterStatSection(character) {
           {character.seasonBonus}
         </div>
       </div>
-      <div class="StatContainer">
-        <div class="Mobility">
+      <div className="StatContainer">
+        <div className="Mobility">
           {
             <img
               value="mobility"
@@ -52,7 +52,7 @@ export default function CharacterStatSection(character) {
           }
           {character.mobility}
         </div>
-        <div class="Resilience">
+        <div className="Resilience">
           {
             <img
               value="resilience"
@@ -64,7 +64,7 @@ export default function CharacterStatSection(character) {
           }
           {character.resilience}
         </div>
-        <div class="Recovery">
+        <div className="Recovery">
           {
             <img
               value="recovery"
@@ -76,7 +76,7 @@ export default function CharacterStatSection(character) {
           }
           {character.recovery}
         </div>
-        <div class="Discipline">
+        <div className="Discipline">
           {
             <img
               value="discipline"
@@ -88,7 +88,7 @@ export default function CharacterStatSection(character) {
           }
           {character.discipline}
         </div>
-        <div class="Intellect">
+        <div className="Intellect">
           {
             <img
               value="intellect"
@@ -100,7 +100,7 @@ export default function CharacterStatSection(character) {
           }
           {character.intellect}
         </div>
-        <div class="Strength">
+        <div className="Strength">
           {
             <img
               value="strength"
