@@ -49,6 +49,15 @@
   box-sizing: border-box;
 }
 
+.CrucibleRankLevel {
+  color: #a1a2a2;
+}
+
+.CrucibleRankTitle {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
 body {
   background-color: #313233;
   color: rgb(255, 255, 255);
