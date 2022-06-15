@@ -2,6 +2,7 @@ import "./styles.css";
 import Inventory from "./containers/Inventory";
 import Characters from "./containers/Characters";
 import Vault from "./containers/Vault";
+import Progress from "./containers/Progress";
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 function Layout() {
@@ -20,7 +21,9 @@ function Layout() {
           <li>
             <Link to="/vault">Vault</Link>
           </li>
-          <li>{/* <Link to="/nothing-here">Nothing Here</Link> */}</li>
+          <li>
+            <Link to="/progress">Progress</Link>
+          </li>
         </ul>
       </nav>
 
@@ -48,6 +51,7 @@ export default function App() {
           <Route index element={<Inventory />} />
           <Route path="characters" element={<Characters />} />
           <Route path="vault" element={<Vault />} />
+          <Route path="progress" element={<Progress />} />
         </Route>
       </Routes>
     </div>
