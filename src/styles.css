@@ -49,13 +49,28 @@
   box-sizing: border-box;
 }
 
-.CrucibleRankLevel {
+.rankLevel {
   color: #a1a2a2;
 }
 
-.CrucibleRankTitle {
+.rankTitle {
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.rankNumber {
+  color: #a1a2a2;
+}
+
+.rankCheckboxes {
+  border: 1px solid #999;
+  margin-right: 4px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.percentToComplete {
+  color: #a1a2a2;
 }
 
 body {
