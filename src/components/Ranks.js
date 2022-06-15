@@ -41,23 +41,52 @@ export default function Ranks(props) {
               alt="crucibleIcon"
             />
           }
-          <div className="CrucibleRankInfo">
+          <div className="gloryRankInfo">
             <div className="rankLevel"> Glory Rank 1</div>
             <div className="rankTitle"> Guardian I</div>
             <div className="rankNumber">
               {
                 <img
-                  value="cruciblerank"
+                  value="gloryrank"
                   width="10px"
                   height="10px"
-                  src="https://www.bungie.net/img/theme/destiny/icons/icon_pvprank_orange.png"
-                  alt="crucibleRankIcon"
+                  src="https://www.bungie.net/img/theme/destiny/icons/icon_pvprank_red.png"
+                  alt="gloryRankIcon"
                 />
               }
               {"0 (0/40)"}
             </div>
             <div className="rankCheckboxes">checkboxes</div>
             <div className="percentToComplete">{"0% to reset"}</div>
+          </div>
+        </div>
+        <div className="gambitRank">
+          {
+            <img
+              value="gambitIcon"
+              width="100px"
+              height="100px"
+              src="https://www.bungie.net/common/destiny2_content/icons/6553afc58dc549376f9ec448bc8241b5.png"
+              alt="gambitIcon"
+            />
+          }
+          <div className="gamibtRankInfo">
+            <div className="rankLevel"> Gambit Rank 4</div>
+            <div className="rankTitle"> Brave I</div>
+            <div className="rankNumber">
+              {
+                <img
+                  value="gambitrank"
+                  width="10px"
+                  height="10px"
+                  src="https://www.bungie.net/img/theme/destiny/icons/icon_rank_green.png"
+                  alt="gambitRankIcon"
+                />
+              }
+              {"355 (105/250)"}
+            </div>
+            <div className="rankCheckboxes">checkboxes</div>
+            <div className="percentToComplete">{"4% to reset"}</div>
           </div>
         </div>
       </div>
