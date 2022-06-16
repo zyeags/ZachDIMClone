@@ -49,27 +49,23 @@
   box-sizing: border-box;
 }
 
-.rankLevel {
+.RankLevel {
   color: #a1a2a2;
 }
 
-.rankTitle {
+.RankTitle {
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.rankNumber {
+.RankNumber {
   color: #a1a2a2;
 }
 
-.rankCheckboxes {
-  border: 1px solid #999;
-  margin-right: 4px;
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.3);
+.RankCheckboxes {
 }
 
-.percentToComplete {
+.PercentToComplete {
   color: #a1a2a2;
 }
 
