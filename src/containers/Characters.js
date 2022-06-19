@@ -5,6 +5,7 @@ export default function Characters() {
     {
       name: "Hunter",
       race: "Human",
+      seasonRank: 78,
       gearPower: 1560,
       seasonBonus: 5,
       mobility: 39,
@@ -17,6 +18,7 @@ export default function Characters() {
     {
       name: "Warlock",
       race: "Awoken",
+      seasonRank: 78,
       gearPower: 1449,
       seasonBonus: 0,
       mobility: 40,
@@ -29,6 +31,7 @@ export default function Characters() {
     {
       name: "Titan",
       race: "Exo",
+      seasonRank: 78,
       gearPower: 1449,
       seasonBonus: 0,
       mobility: 39,

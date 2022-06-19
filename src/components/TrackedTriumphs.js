@@ -1,3 +1,3 @@
 export default function TrackedTriumphs() {
-  <div></div>;
+  return <div>Tracked Triumphs</div>;
 }
